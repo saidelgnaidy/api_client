@@ -15,7 +15,7 @@ final _privateConstructorUsedError = UnsupportedError(
     'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
-mixin _$KFailure {
+mixin _$Failure {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function() server,
@@ -73,77 +73,77 @@ mixin _$KFailure {
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $KFailureCopyWith<$Res> {
-  factory $KFailureCopyWith(KFailure value, $Res Function(KFailure) then) =
-      _$KFailureCopyWithImpl<$Res, KFailure>;
+abstract class $FailureCopyWith<$Res> {
+  factory $FailureCopyWith(Failure value, $Res Function(Failure) then) =
+      _$FailureCopyWithImpl<$Res, Failure>;
 }
 
 /// @nodoc
-class _$KFailureCopyWithImpl<$Res, $Val extends KFailure>
-    implements $KFailureCopyWith<$Res> {
-  _$KFailureCopyWithImpl(this._value, this._then);
+class _$FailureCopyWithImpl<$Res, $Val extends Failure>
+    implements $FailureCopyWith<$Res> {
+  _$FailureCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
@@ -152,35 +152,35 @@ class _$KFailureCopyWithImpl<$Res, $Val extends KFailure>
 }
 
 /// @nodoc
-abstract class _$$KFailureServerCopyWith<$Res> {
-  factory _$$KFailureServerCopyWith(
-          _$KFailureServer value, $Res Function(_$KFailureServer) then) =
-      __$$KFailureServerCopyWithImpl<$Res>;
+abstract class _$$FailureServerCopyWith<$Res> {
+  factory _$$FailureServerCopyWith(
+          _$FailureServer value, $Res Function(_$FailureServer) then) =
+      __$$FailureServerCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$KFailureServerCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureServer>
-    implements _$$KFailureServerCopyWith<$Res> {
-  __$$KFailureServerCopyWithImpl(
-      _$KFailureServer _value, $Res Function(_$KFailureServer) _then)
+class __$$FailureServerCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureServer>
+    implements _$$FailureServerCopyWith<$Res> {
+  __$$FailureServerCopyWithImpl(
+      _$FailureServer _value, $Res Function(_$FailureServer) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$KFailureServer implements KFailureServer {
-  const _$KFailureServer();
+class _$FailureServer implements FailureServer {
+  const _$FailureServer();
 
   @override
   String toString() {
-    return 'KFailure.server()';
+    return 'Failure.server()';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$KFailureServer);
+        (other.runtimeType == runtimeType && other is _$FailureServer);
   }
 
   @override
@@ -256,22 +256,22 @@ class _$KFailureServer implements KFailureServer {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return server(this);
   }
@@ -279,22 +279,22 @@ class _$KFailureServer implements KFailureServer {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return server?.call(this);
   }
@@ -302,22 +302,22 @@ class _$KFailureServer implements KFailureServer {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (server != null) {
@@ -327,25 +327,25 @@ class _$KFailureServer implements KFailureServer {
   }
 }
 
-abstract class KFailureServer implements KFailure {
-  const factory KFailureServer() = _$KFailureServer;
+abstract class FailureServer implements Failure {
+  const factory FailureServer() = _$FailureServer;
 }
 
 /// @nodoc
-abstract class _$$KFailureOfflineCopyWith<$Res> {
-  factory _$$KFailureOfflineCopyWith(
-          _$KFailureOffline value, $Res Function(_$KFailureOffline) then) =
-      __$$KFailureOfflineCopyWithImpl<$Res>;
+abstract class _$$FailureOfflineCopyWith<$Res> {
+  factory _$$FailureOfflineCopyWith(
+          _$FailureOffline value, $Res Function(_$FailureOffline) then) =
+      __$$FailureOfflineCopyWithImpl<$Res>;
   @useResult
   $Res call({RequestOptions? option});
 }
 
 /// @nodoc
-class __$$KFailureOfflineCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureOffline>
-    implements _$$KFailureOfflineCopyWith<$Res> {
-  __$$KFailureOfflineCopyWithImpl(
-      _$KFailureOffline _value, $Res Function(_$KFailureOffline) _then)
+class __$$FailureOfflineCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureOffline>
+    implements _$$FailureOfflineCopyWith<$Res> {
+  __$$FailureOfflineCopyWithImpl(
+      _$FailureOffline _value, $Res Function(_$FailureOffline) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -353,7 +353,7 @@ class __$$KFailureOfflineCopyWithImpl<$Res>
   $Res call({
     Object? option = freezed,
   }) {
-    return _then(_$KFailureOffline(
+    return _then(_$FailureOffline(
       option: freezed == option
           ? _value.option
           : option // ignore: cast_nullable_to_non_nullable
@@ -364,22 +364,22 @@ class __$$KFailureOfflineCopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$KFailureOffline implements KFailureOffline {
-  const _$KFailureOffline({this.option});
+class _$FailureOffline implements FailureOffline {
+  const _$FailureOffline({this.option});
 
   @override
   final RequestOptions? option;
 
   @override
   String toString() {
-    return 'KFailure.offline(option: $option)';
+    return 'Failure.offline(option: $option)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$KFailureOffline &&
+            other is _$FailureOffline &&
             (identical(other.option, option) || other.option == option));
   }
 
@@ -389,8 +389,8 @@ class _$KFailureOffline implements KFailureOffline {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$KFailureOfflineCopyWith<_$KFailureOffline> get copyWith =>
-      __$$KFailureOfflineCopyWithImpl<_$KFailureOffline>(this, _$identity);
+  _$$FailureOfflineCopyWith<_$FailureOffline> get copyWith =>
+      __$$FailureOfflineCopyWithImpl<_$FailureOffline>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -462,22 +462,22 @@ class _$KFailureOffline implements KFailureOffline {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return offline(this);
   }
@@ -485,22 +485,22 @@ class _$KFailureOffline implements KFailureOffline {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return offline?.call(this);
   }
@@ -508,22 +508,22 @@ class _$KFailureOffline implements KFailureOffline {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (offline != null) {
@@ -533,46 +533,46 @@ class _$KFailureOffline implements KFailureOffline {
   }
 }
 
-abstract class KFailureOffline implements KFailure {
-  const factory KFailureOffline({final RequestOptions? option}) =
-      _$KFailureOffline;
+abstract class FailureOffline implements Failure {
+  const factory FailureOffline({final RequestOptions? option}) =
+      _$FailureOffline;
 
   RequestOptions? get option;
   @JsonKey(ignore: true)
-  _$$KFailureOfflineCopyWith<_$KFailureOffline> get copyWith =>
+  _$$FailureOfflineCopyWith<_$FailureOffline> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$$KFailureUserNotFoundCopyWith<$Res> {
-  factory _$$KFailureUserNotFoundCopyWith(_$KFailureUserNotFound value,
-          $Res Function(_$KFailureUserNotFound) then) =
-      __$$KFailureUserNotFoundCopyWithImpl<$Res>;
+abstract class _$$FailureUserNotFoundCopyWith<$Res> {
+  factory _$$FailureUserNotFoundCopyWith(_$FailureUserNotFound value,
+          $Res Function(_$FailureUserNotFound) then) =
+      __$$FailureUserNotFoundCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$KFailureUserNotFoundCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureUserNotFound>
-    implements _$$KFailureUserNotFoundCopyWith<$Res> {
-  __$$KFailureUserNotFoundCopyWithImpl(_$KFailureUserNotFound _value,
-      $Res Function(_$KFailureUserNotFound) _then)
+class __$$FailureUserNotFoundCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureUserNotFound>
+    implements _$$FailureUserNotFoundCopyWith<$Res> {
+  __$$FailureUserNotFoundCopyWithImpl(
+      _$FailureUserNotFound _value, $Res Function(_$FailureUserNotFound) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$KFailureUserNotFound implements KFailureUserNotFound {
-  const _$KFailureUserNotFound();
+class _$FailureUserNotFound implements FailureUserNotFound {
+  const _$FailureUserNotFound();
 
   @override
   String toString() {
-    return 'KFailure.userNotFound()';
+    return 'Failure.userNotFound()';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$KFailureUserNotFound);
+        (other.runtimeType == runtimeType && other is _$FailureUserNotFound);
   }
 
   @override
@@ -648,22 +648,22 @@ class _$KFailureUserNotFound implements KFailureUserNotFound {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return userNotFound(this);
   }
@@ -671,22 +671,22 @@ class _$KFailureUserNotFound implements KFailureUserNotFound {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return userNotFound?.call(this);
   }
@@ -694,22 +694,22 @@ class _$KFailureUserNotFound implements KFailureUserNotFound {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (userNotFound != null) {
@@ -719,40 +719,40 @@ class _$KFailureUserNotFound implements KFailureUserNotFound {
   }
 }
 
-abstract class KFailureUserNotFound implements KFailure {
-  const factory KFailureUserNotFound() = _$KFailureUserNotFound;
+abstract class FailureUserNotFound implements Failure {
+  const factory FailureUserNotFound() = _$FailureUserNotFound;
 }
 
 /// @nodoc
-abstract class _$$KFailureLocationDenaidCopyWith<$Res> {
-  factory _$$KFailureLocationDenaidCopyWith(_$KFailureLocationDenaid value,
-          $Res Function(_$KFailureLocationDenaid) then) =
-      __$$KFailureLocationDenaidCopyWithImpl<$Res>;
+abstract class _$$FailureLocationDenaidCopyWith<$Res> {
+  factory _$$FailureLocationDenaidCopyWith(_$FailureLocationDenaid value,
+          $Res Function(_$FailureLocationDenaid) then) =
+      __$$FailureLocationDenaidCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$KFailureLocationDenaidCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureLocationDenaid>
-    implements _$$KFailureLocationDenaidCopyWith<$Res> {
-  __$$KFailureLocationDenaidCopyWithImpl(_$KFailureLocationDenaid _value,
-      $Res Function(_$KFailureLocationDenaid) _then)
+class __$$FailureLocationDenaidCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureLocationDenaid>
+    implements _$$FailureLocationDenaidCopyWith<$Res> {
+  __$$FailureLocationDenaidCopyWithImpl(_$FailureLocationDenaid _value,
+      $Res Function(_$FailureLocationDenaid) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$KFailureLocationDenaid implements KFailureLocationDenaid {
-  const _$KFailureLocationDenaid();
+class _$FailureLocationDenaid implements FailureLocationDenaid {
+  const _$FailureLocationDenaid();
 
   @override
   String toString() {
-    return 'KFailure.locationDenaid()';
+    return 'Failure.locationDenaid()';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$KFailureLocationDenaid);
+        (other.runtimeType == runtimeType && other is _$FailureLocationDenaid);
   }
 
   @override
@@ -828,22 +828,22 @@ class _$KFailureLocationDenaid implements KFailureLocationDenaid {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return locationDenaid(this);
   }
@@ -851,22 +851,22 @@ class _$KFailureLocationDenaid implements KFailureLocationDenaid {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return locationDenaid?.call(this);
   }
@@ -874,22 +874,22 @@ class _$KFailureLocationDenaid implements KFailureLocationDenaid {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (locationDenaid != null) {
@@ -899,41 +899,40 @@ class _$KFailureLocationDenaid implements KFailureLocationDenaid {
   }
 }
 
-abstract class KFailureLocationDenaid implements KFailure {
-  const factory KFailureLocationDenaid() = _$KFailureLocationDenaid;
+abstract class FailureLocationDenaid implements Failure {
+  const factory FailureLocationDenaid() = _$FailureLocationDenaid;
 }
 
 /// @nodoc
-abstract class _$$KFailureLocationDiabledCopyWith<$Res> {
-  factory _$$KFailureLocationDiabledCopyWith(_$KFailureLocationDiabled value,
-          $Res Function(_$KFailureLocationDiabled) then) =
-      __$$KFailureLocationDiabledCopyWithImpl<$Res>;
+abstract class _$$FailureLocationDiabledCopyWith<$Res> {
+  factory _$$FailureLocationDiabledCopyWith(_$FailureLocationDiabled value,
+          $Res Function(_$FailureLocationDiabled) then) =
+      __$$FailureLocationDiabledCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$KFailureLocationDiabledCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureLocationDiabled>
-    implements _$$KFailureLocationDiabledCopyWith<$Res> {
-  __$$KFailureLocationDiabledCopyWithImpl(_$KFailureLocationDiabled _value,
-      $Res Function(_$KFailureLocationDiabled) _then)
+class __$$FailureLocationDiabledCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureLocationDiabled>
+    implements _$$FailureLocationDiabledCopyWith<$Res> {
+  __$$FailureLocationDiabledCopyWithImpl(_$FailureLocationDiabled _value,
+      $Res Function(_$FailureLocationDiabled) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$KFailureLocationDiabled implements KFailureLocationDiabled {
-  const _$KFailureLocationDiabled();
+class _$FailureLocationDiabled implements FailureLocationDiabled {
+  const _$FailureLocationDiabled();
 
   @override
   String toString() {
-    return 'KFailure.locationDiabled()';
+    return 'Failure.locationDiabled()';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$KFailureLocationDiabled);
+        (other.runtimeType == runtimeType && other is _$FailureLocationDiabled);
   }
 
   @override
@@ -1009,22 +1008,22 @@ class _$KFailureLocationDiabled implements KFailureLocationDiabled {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return locationDiabled(this);
   }
@@ -1032,22 +1031,22 @@ class _$KFailureLocationDiabled implements KFailureLocationDiabled {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return locationDiabled?.call(this);
   }
@@ -1055,22 +1054,22 @@ class _$KFailureLocationDiabled implements KFailureLocationDiabled {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (locationDiabled != null) {
@@ -1080,44 +1079,44 @@ class _$KFailureLocationDiabled implements KFailureLocationDiabled {
   }
 }
 
-abstract class KFailureLocationDiabled implements KFailure {
-  const factory KFailureLocationDiabled() = _$KFailureLocationDiabled;
+abstract class FailureLocationDiabled implements Failure {
+  const factory FailureLocationDiabled() = _$FailureLocationDiabled;
 }
 
 /// @nodoc
-abstract class _$$KFailureLocationDenaidPermenetlCopyWith<$Res> {
-  factory _$$KFailureLocationDenaidPermenetlCopyWith(
-          _$KFailureLocationDenaidPermenetl value,
-          $Res Function(_$KFailureLocationDenaidPermenetl) then) =
-      __$$KFailureLocationDenaidPermenetlCopyWithImpl<$Res>;
+abstract class _$$FailureLocationDenaidPermenetlCopyWith<$Res> {
+  factory _$$FailureLocationDenaidPermenetlCopyWith(
+          _$FailureLocationDenaidPermenetl value,
+          $Res Function(_$FailureLocationDenaidPermenetl) then) =
+      __$$FailureLocationDenaidPermenetlCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$KFailureLocationDenaidPermenetlCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureLocationDenaidPermenetl>
-    implements _$$KFailureLocationDenaidPermenetlCopyWith<$Res> {
-  __$$KFailureLocationDenaidPermenetlCopyWithImpl(
-      _$KFailureLocationDenaidPermenetl _value,
-      $Res Function(_$KFailureLocationDenaidPermenetl) _then)
+class __$$FailureLocationDenaidPermenetlCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureLocationDenaidPermenetl>
+    implements _$$FailureLocationDenaidPermenetlCopyWith<$Res> {
+  __$$FailureLocationDenaidPermenetlCopyWithImpl(
+      _$FailureLocationDenaidPermenetl _value,
+      $Res Function(_$FailureLocationDenaidPermenetl) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$KFailureLocationDenaidPermenetl
-    implements KFailureLocationDenaidPermenetl {
-  const _$KFailureLocationDenaidPermenetl();
+class _$FailureLocationDenaidPermenetl
+    implements FailureLocationDenaidPermenetl {
+  const _$FailureLocationDenaidPermenetl();
 
   @override
   String toString() {
-    return 'KFailure.locationDenaidPermenetl()';
+    return 'Failure.locationDenaidPermenetl()';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$KFailureLocationDenaidPermenetl);
+            other is _$FailureLocationDenaidPermenetl);
   }
 
   @override
@@ -1193,22 +1192,22 @@ class _$KFailureLocationDenaidPermenetl
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return locationDenaidPermenetl(this);
   }
@@ -1216,22 +1215,22 @@ class _$KFailureLocationDenaidPermenetl
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return locationDenaidPermenetl?.call(this);
   }
@@ -1239,22 +1238,22 @@ class _$KFailureLocationDenaidPermenetl
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (locationDenaidPermenetl != null) {
@@ -1264,41 +1263,41 @@ class _$KFailureLocationDenaidPermenetl
   }
 }
 
-abstract class KFailureLocationDenaidPermenetl implements KFailure {
-  const factory KFailureLocationDenaidPermenetl() =
-      _$KFailureLocationDenaidPermenetl;
+abstract class FailureLocationDenaidPermenetl implements Failure {
+  const factory FailureLocationDenaidPermenetl() =
+      _$FailureLocationDenaidPermenetl;
 }
 
 /// @nodoc
-abstract class _$$KFailureUserLogedOutCopyWith<$Res> {
-  factory _$$KFailureUserLogedOutCopyWith(_$KFailureUserLogedOut value,
-          $Res Function(_$KFailureUserLogedOut) then) =
-      __$$KFailureUserLogedOutCopyWithImpl<$Res>;
+abstract class _$$FailureUserLogedOutCopyWith<$Res> {
+  factory _$$FailureUserLogedOutCopyWith(_$FailureUserLogedOut value,
+          $Res Function(_$FailureUserLogedOut) then) =
+      __$$FailureUserLogedOutCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$KFailureUserLogedOutCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureUserLogedOut>
-    implements _$$KFailureUserLogedOutCopyWith<$Res> {
-  __$$KFailureUserLogedOutCopyWithImpl(_$KFailureUserLogedOut _value,
-      $Res Function(_$KFailureUserLogedOut) _then)
+class __$$FailureUserLogedOutCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureUserLogedOut>
+    implements _$$FailureUserLogedOutCopyWith<$Res> {
+  __$$FailureUserLogedOutCopyWithImpl(
+      _$FailureUserLogedOut _value, $Res Function(_$FailureUserLogedOut) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$KFailureUserLogedOut implements KFailureUserLogedOut {
-  const _$KFailureUserLogedOut();
+class _$FailureUserLogedOut implements FailureUserLogedOut {
+  const _$FailureUserLogedOut();
 
   @override
   String toString() {
-    return 'KFailure.userLogetOut()';
+    return 'Failure.userLogetOut()';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$KFailureUserLogedOut);
+        (other.runtimeType == runtimeType && other is _$FailureUserLogedOut);
   }
 
   @override
@@ -1374,22 +1373,22 @@ class _$KFailureUserLogedOut implements KFailureUserLogedOut {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return userLogetOut(this);
   }
@@ -1397,22 +1396,22 @@ class _$KFailureUserLogedOut implements KFailureUserLogedOut {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return userLogetOut?.call(this);
   }
@@ -1420,22 +1419,22 @@ class _$KFailureUserLogedOut implements KFailureUserLogedOut {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (userLogetOut != null) {
@@ -1445,44 +1444,44 @@ class _$KFailureUserLogedOut implements KFailureUserLogedOut {
   }
 }
 
-abstract class KFailureUserLogedOut implements KFailure {
-  const factory KFailureUserLogedOut() = _$KFailureUserLogedOut;
+abstract class FailureUserLogedOut implements Failure {
+  const factory FailureUserLogedOut() = _$FailureUserLogedOut;
 }
 
 /// @nodoc
-abstract class _$$KFailureSomeThingWrongPleaseTryagainCopyWith<$Res> {
-  factory _$$KFailureSomeThingWrongPleaseTryagainCopyWith(
-          _$KFailureSomeThingWrongPleaseTryagain value,
-          $Res Function(_$KFailureSomeThingWrongPleaseTryagain) then) =
-      __$$KFailureSomeThingWrongPleaseTryagainCopyWithImpl<$Res>;
+abstract class _$$FailureSomeThingWrongPleaseTryagainCopyWith<$Res> {
+  factory _$$FailureSomeThingWrongPleaseTryagainCopyWith(
+          _$FailureSomeThingWrongPleaseTryagain value,
+          $Res Function(_$FailureSomeThingWrongPleaseTryagain) then) =
+      __$$FailureSomeThingWrongPleaseTryagainCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$KFailureSomeThingWrongPleaseTryagainCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureSomeThingWrongPleaseTryagain>
-    implements _$$KFailureSomeThingWrongPleaseTryagainCopyWith<$Res> {
-  __$$KFailureSomeThingWrongPleaseTryagainCopyWithImpl(
-      _$KFailureSomeThingWrongPleaseTryagain _value,
-      $Res Function(_$KFailureSomeThingWrongPleaseTryagain) _then)
+class __$$FailureSomeThingWrongPleaseTryagainCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureSomeThingWrongPleaseTryagain>
+    implements _$$FailureSomeThingWrongPleaseTryagainCopyWith<$Res> {
+  __$$FailureSomeThingWrongPleaseTryagainCopyWithImpl(
+      _$FailureSomeThingWrongPleaseTryagain _value,
+      $Res Function(_$FailureSomeThingWrongPleaseTryagain) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$KFailureSomeThingWrongPleaseTryagain
-    implements KFailureSomeThingWrongPleaseTryagain {
-  const _$KFailureSomeThingWrongPleaseTryagain();
+class _$FailureSomeThingWrongPleaseTryagain
+    implements FailureSomeThingWrongPleaseTryagain {
+  const _$FailureSomeThingWrongPleaseTryagain();
 
   @override
   String toString() {
-    return 'KFailure.someThingWrongPleaseTryagain()';
+    return 'Failure.someThingWrongPleaseTryagain()';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$KFailureSomeThingWrongPleaseTryagain);
+            other is _$FailureSomeThingWrongPleaseTryagain);
   }
 
   @override
@@ -1558,22 +1557,22 @@ class _$KFailureSomeThingWrongPleaseTryagain
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return someThingWrongPleaseTryagain(this);
   }
@@ -1581,22 +1580,22 @@ class _$KFailureSomeThingWrongPleaseTryagain
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return someThingWrongPleaseTryagain?.call(this);
   }
@@ -1604,22 +1603,22 @@ class _$KFailureSomeThingWrongPleaseTryagain
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (someThingWrongPleaseTryagain != null) {
@@ -1629,42 +1628,41 @@ class _$KFailureSomeThingWrongPleaseTryagain
   }
 }
 
-abstract class KFailureSomeThingWrongPleaseTryagain implements KFailure {
-  const factory KFailureSomeThingWrongPleaseTryagain() =
-      _$KFailureSomeThingWrongPleaseTryagain;
+abstract class FailureSomeThingWrongPleaseTryagain implements Failure {
+  const factory FailureSomeThingWrongPleaseTryagain() =
+      _$FailureSomeThingWrongPleaseTryagain;
 }
 
 /// @nodoc
-abstract class _$$KFailureUnknownNetIssueCopyWith<$Res> {
-  factory _$$KFailureUnknownNetIssueCopyWith(_$KFailureUnknownNetIssue value,
-          $Res Function(_$KFailureUnknownNetIssue) then) =
-      __$$KFailureUnknownNetIssueCopyWithImpl<$Res>;
+abstract class _$$FailureUnknownNetIssueCopyWith<$Res> {
+  factory _$$FailureUnknownNetIssueCopyWith(_$FailureUnknownNetIssue value,
+          $Res Function(_$FailureUnknownNetIssue) then) =
+      __$$FailureUnknownNetIssueCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$KFailureUnknownNetIssueCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureUnknownNetIssue>
-    implements _$$KFailureUnknownNetIssueCopyWith<$Res> {
-  __$$KFailureUnknownNetIssueCopyWithImpl(_$KFailureUnknownNetIssue _value,
-      $Res Function(_$KFailureUnknownNetIssue) _then)
+class __$$FailureUnknownNetIssueCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureUnknownNetIssue>
+    implements _$$FailureUnknownNetIssueCopyWith<$Res> {
+  __$$FailureUnknownNetIssueCopyWithImpl(_$FailureUnknownNetIssue _value,
+      $Res Function(_$FailureUnknownNetIssue) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$KFailureUnknownNetIssue implements KFailureUnknownNetIssue {
-  const _$KFailureUnknownNetIssue();
+class _$FailureUnknownNetIssue implements FailureUnknownNetIssue {
+  const _$FailureUnknownNetIssue();
 
   @override
   String toString() {
-    return 'KFailure.unknownNetIssue()';
+    return 'Failure.unknownNetIssue()';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$KFailureUnknownNetIssue);
+        (other.runtimeType == runtimeType && other is _$FailureUnknownNetIssue);
   }
 
   @override
@@ -1740,22 +1738,22 @@ class _$KFailureUnknownNetIssue implements KFailureUnknownNetIssue {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return unknownNetIssue(this);
   }
@@ -1763,22 +1761,22 @@ class _$KFailureUnknownNetIssue implements KFailureUnknownNetIssue {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return unknownNetIssue?.call(this);
   }
@@ -1786,22 +1784,22 @@ class _$KFailureUnknownNetIssue implements KFailureUnknownNetIssue {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (unknownNetIssue != null) {
@@ -1811,25 +1809,25 @@ class _$KFailureUnknownNetIssue implements KFailureUnknownNetIssue {
   }
 }
 
-abstract class KFailureUnknownNetIssue implements KFailure {
-  const factory KFailureUnknownNetIssue() = _$KFailureUnknownNetIssue;
+abstract class FailureUnknownNetIssue implements Failure {
+  const factory FailureUnknownNetIssue() = _$FailureUnknownNetIssue;
 }
 
 /// @nodoc
-abstract class _$$KFailureDecodingResponseCopyWith<$Res> {
-  factory _$$KFailureDecodingResponseCopyWith(_$KFailureDecodingResponse value,
-          $Res Function(_$KFailureDecodingResponse) then) =
-      __$$KFailureDecodingResponseCopyWithImpl<$Res>;
+abstract class _$$FailureDecodingResponseCopyWith<$Res> {
+  factory _$$FailureDecodingResponseCopyWith(_$FailureDecodingResponse value,
+          $Res Function(_$FailureDecodingResponse) then) =
+      __$$FailureDecodingResponseCopyWithImpl<$Res>;
   @useResult
   $Res call({String error});
 }
 
 /// @nodoc
-class __$$KFailureDecodingResponseCopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureDecodingResponse>
-    implements _$$KFailureDecodingResponseCopyWith<$Res> {
-  __$$KFailureDecodingResponseCopyWithImpl(_$KFailureDecodingResponse _value,
-      $Res Function(_$KFailureDecodingResponse) _then)
+class __$$FailureDecodingResponseCopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureDecodingResponse>
+    implements _$$FailureDecodingResponseCopyWith<$Res> {
+  __$$FailureDecodingResponseCopyWithImpl(_$FailureDecodingResponse _value,
+      $Res Function(_$FailureDecodingResponse) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -1837,7 +1835,7 @@ class __$$KFailureDecodingResponseCopyWithImpl<$Res>
   $Res call({
     Object? error = null,
   }) {
-    return _then(_$KFailureDecodingResponse(
+    return _then(_$FailureDecodingResponse(
       null == error
           ? _value.error
           : error // ignore: cast_nullable_to_non_nullable
@@ -1848,22 +1846,22 @@ class __$$KFailureDecodingResponseCopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$KFailureDecodingResponse implements KFailureDecodingResponse {
-  const _$KFailureDecodingResponse(this.error);
+class _$FailureDecodingResponse implements FailureDecodingResponse {
+  const _$FailureDecodingResponse(this.error);
 
   @override
   final String error;
 
   @override
   String toString() {
-    return 'KFailure.error(error: $error)';
+    return 'Failure.error(error: $error)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$KFailureDecodingResponse &&
+            other is _$FailureDecodingResponse &&
             (identical(other.error, error) || other.error == error));
   }
 
@@ -1873,10 +1871,9 @@ class _$KFailureDecodingResponse implements KFailureDecodingResponse {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$KFailureDecodingResponseCopyWith<_$KFailureDecodingResponse>
-      get copyWith =>
-          __$$KFailureDecodingResponseCopyWithImpl<_$KFailureDecodingResponse>(
-              this, _$identity);
+  _$$FailureDecodingResponseCopyWith<_$FailureDecodingResponse> get copyWith =>
+      __$$FailureDecodingResponseCopyWithImpl<_$FailureDecodingResponse>(
+          this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -1948,22 +1945,22 @@ class _$KFailureDecodingResponse implements KFailureDecodingResponse {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return error(this);
   }
@@ -1971,22 +1968,22 @@ class _$KFailureDecodingResponse implements KFailureDecodingResponse {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return error?.call(this);
   }
@@ -1994,22 +1991,22 @@ class _$KFailureDecodingResponse implements KFailureDecodingResponse {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -2019,31 +2016,31 @@ class _$KFailureDecodingResponse implements KFailureDecodingResponse {
   }
 }
 
-abstract class KFailureDecodingResponse implements KFailure {
-  const factory KFailureDecodingResponse(final String error) =
-      _$KFailureDecodingResponse;
+abstract class FailureDecodingResponse implements Failure {
+  const factory FailureDecodingResponse(final String error) =
+      _$FailureDecodingResponse;
 
   String get error;
   @JsonKey(ignore: true)
-  _$$KFailureDecodingResponseCopyWith<_$KFailureDecodingResponse>
-      get copyWith => throw _privateConstructorUsedError;
+  _$$FailureDecodingResponseCopyWith<_$FailureDecodingResponse> get copyWith =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$$KFailureError422CopyWith<$Res> {
-  factory _$$KFailureError422CopyWith(
-          _$KFailureError422 value, $Res Function(_$KFailureError422) then) =
-      __$$KFailureError422CopyWithImpl<$Res>;
+abstract class _$$FailureError422CopyWith<$Res> {
+  factory _$$FailureError422CopyWith(
+          _$FailureError422 value, $Res Function(_$FailureError422) then) =
+      __$$FailureError422CopyWithImpl<$Res>;
   @useResult
   $Res call({String error422model});
 }
 
 /// @nodoc
-class __$$KFailureError422CopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureError422>
-    implements _$$KFailureError422CopyWith<$Res> {
-  __$$KFailureError422CopyWithImpl(
-      _$KFailureError422 _value, $Res Function(_$KFailureError422) _then)
+class __$$FailureError422CopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureError422>
+    implements _$$FailureError422CopyWith<$Res> {
+  __$$FailureError422CopyWithImpl(
+      _$FailureError422 _value, $Res Function(_$FailureError422) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -2051,7 +2048,7 @@ class __$$KFailureError422CopyWithImpl<$Res>
   $Res call({
     Object? error422model = null,
   }) {
-    return _then(_$KFailureError422(
+    return _then(_$FailureError422(
       error422model: null == error422model
           ? _value.error422model
           : error422model // ignore: cast_nullable_to_non_nullable
@@ -2062,22 +2059,22 @@ class __$$KFailureError422CopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$KFailureError422 implements KFailureError422 {
-  const _$KFailureError422({required this.error422model});
+class _$FailureError422 implements FailureError422 {
+  const _$FailureError422({required this.error422model});
 
   @override
   final String error422model;
 
   @override
   String toString() {
-    return 'KFailure.error422(error422model: $error422model)';
+    return 'Failure.error422(error422model: $error422model)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$KFailureError422 &&
+            other is _$FailureError422 &&
             (identical(other.error422model, error422model) ||
                 other.error422model == error422model));
   }
@@ -2088,8 +2085,8 @@ class _$KFailureError422 implements KFailureError422 {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$KFailureError422CopyWith<_$KFailureError422> get copyWith =>
-      __$$KFailureError422CopyWithImpl<_$KFailureError422>(this, _$identity);
+  _$$FailureError422CopyWith<_$FailureError422> get copyWith =>
+      __$$FailureError422CopyWithImpl<_$FailureError422>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -2161,22 +2158,22 @@ class _$KFailureError422 implements KFailureError422 {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return error422(this);
   }
@@ -2184,22 +2181,22 @@ class _$KFailureError422 implements KFailureError422 {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return error422?.call(this);
   }
@@ -2207,22 +2204,22 @@ class _$KFailureError422 implements KFailureError422 {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (error422 != null) {
@@ -2232,31 +2229,31 @@ class _$KFailureError422 implements KFailureError422 {
   }
 }
 
-abstract class KFailureError422 implements KFailure {
-  const factory KFailureError422({required final String error422model}) =
-      _$KFailureError422;
+abstract class FailureError422 implements Failure {
+  const factory FailureError422({required final String error422model}) =
+      _$FailureError422;
 
   String get error422model;
   @JsonKey(ignore: true)
-  _$$KFailureError422CopyWith<_$KFailureError422> get copyWith =>
+  _$$FailureError422CopyWith<_$FailureError422> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$$KFailureError401CopyWith<$Res> {
-  factory _$$KFailureError401CopyWith(
-          _$KFailureError401 value, $Res Function(_$KFailureError401) then) =
-      __$$KFailureError401CopyWithImpl<$Res>;
+abstract class _$$FailureError401CopyWith<$Res> {
+  factory _$$FailureError401CopyWith(
+          _$FailureError401 value, $Res Function(_$FailureError401) then) =
+      __$$FailureError401CopyWithImpl<$Res>;
   @useResult
   $Res call({String error});
 }
 
 /// @nodoc
-class __$$KFailureError401CopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureError401>
-    implements _$$KFailureError401CopyWith<$Res> {
-  __$$KFailureError401CopyWithImpl(
-      _$KFailureError401 _value, $Res Function(_$KFailureError401) _then)
+class __$$FailureError401CopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureError401>
+    implements _$$FailureError401CopyWith<$Res> {
+  __$$FailureError401CopyWithImpl(
+      _$FailureError401 _value, $Res Function(_$FailureError401) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -2264,7 +2261,7 @@ class __$$KFailureError401CopyWithImpl<$Res>
   $Res call({
     Object? error = null,
   }) {
-    return _then(_$KFailureError401(
+    return _then(_$FailureError401(
       error: null == error
           ? _value.error
           : error // ignore: cast_nullable_to_non_nullable
@@ -2275,22 +2272,22 @@ class __$$KFailureError401CopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$KFailureError401 implements KFailureError401 {
-  const _$KFailureError401({required this.error});
+class _$FailureError401 implements FailureError401 {
+  const _$FailureError401({required this.error});
 
   @override
   final String error;
 
   @override
   String toString() {
-    return 'KFailure.error401(error: $error)';
+    return 'Failure.error401(error: $error)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$KFailureError401 &&
+            other is _$FailureError401 &&
             (identical(other.error, error) || other.error == error));
   }
 
@@ -2300,8 +2297,8 @@ class _$KFailureError401 implements KFailureError401 {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$KFailureError401CopyWith<_$KFailureError401> get copyWith =>
-      __$$KFailureError401CopyWithImpl<_$KFailureError401>(this, _$identity);
+  _$$FailureError401CopyWith<_$FailureError401> get copyWith =>
+      __$$FailureError401CopyWithImpl<_$FailureError401>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -2373,22 +2370,22 @@ class _$KFailureError401 implements KFailureError401 {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return error401(this);
   }
@@ -2396,22 +2393,22 @@ class _$KFailureError401 implements KFailureError401 {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return error401?.call(this);
   }
@@ -2419,22 +2416,22 @@ class _$KFailureError401 implements KFailureError401 {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (error401 != null) {
@@ -2444,31 +2441,31 @@ class _$KFailureError401 implements KFailureError401 {
   }
 }
 
-abstract class KFailureError401 implements KFailure {
-  const factory KFailureError401({required final String error}) =
-      _$KFailureError401;
+abstract class FailureError401 implements Failure {
+  const factory FailureError401({required final String error}) =
+      _$FailureError401;
 
   String get error;
   @JsonKey(ignore: true)
-  _$$KFailureError401CopyWith<_$KFailureError401> get copyWith =>
+  _$$FailureError401CopyWith<_$FailureError401> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$$KFailureError403CopyWith<$Res> {
-  factory _$$KFailureError403CopyWith(
-          _$KFailureError403 value, $Res Function(_$KFailureError403) then) =
-      __$$KFailureError403CopyWithImpl<$Res>;
+abstract class _$$FailureError403CopyWith<$Res> {
+  factory _$$FailureError403CopyWith(
+          _$FailureError403 value, $Res Function(_$FailureError403) then) =
+      __$$FailureError403CopyWithImpl<$Res>;
   @useResult
   $Res call({String error});
 }
 
 /// @nodoc
-class __$$KFailureError403CopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureError403>
-    implements _$$KFailureError403CopyWith<$Res> {
-  __$$KFailureError403CopyWithImpl(
-      _$KFailureError403 _value, $Res Function(_$KFailureError403) _then)
+class __$$FailureError403CopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureError403>
+    implements _$$FailureError403CopyWith<$Res> {
+  __$$FailureError403CopyWithImpl(
+      _$FailureError403 _value, $Res Function(_$FailureError403) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -2476,7 +2473,7 @@ class __$$KFailureError403CopyWithImpl<$Res>
   $Res call({
     Object? error = null,
   }) {
-    return _then(_$KFailureError403(
+    return _then(_$FailureError403(
       error: null == error
           ? _value.error
           : error // ignore: cast_nullable_to_non_nullable
@@ -2487,22 +2484,22 @@ class __$$KFailureError403CopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$KFailureError403 implements KFailureError403 {
-  const _$KFailureError403({required this.error});
+class _$FailureError403 implements FailureError403 {
+  const _$FailureError403({required this.error});
 
   @override
   final String error;
 
   @override
   String toString() {
-    return 'KFailure.error403(error: $error)';
+    return 'Failure.error403(error: $error)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$KFailureError403 &&
+            other is _$FailureError403 &&
             (identical(other.error, error) || other.error == error));
   }
 
@@ -2512,8 +2509,8 @@ class _$KFailureError403 implements KFailureError403 {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$KFailureError403CopyWith<_$KFailureError403> get copyWith =>
-      __$$KFailureError403CopyWithImpl<_$KFailureError403>(this, _$identity);
+  _$$FailureError403CopyWith<_$FailureError403> get copyWith =>
+      __$$FailureError403CopyWithImpl<_$FailureError403>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -2585,22 +2582,22 @@ class _$KFailureError403 implements KFailureError403 {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return error403(this);
   }
@@ -2608,22 +2605,22 @@ class _$KFailureError403 implements KFailureError403 {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return error403?.call(this);
   }
@@ -2631,22 +2628,22 @@ class _$KFailureError403 implements KFailureError403 {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (error403 != null) {
@@ -2656,31 +2653,31 @@ class _$KFailureError403 implements KFailureError403 {
   }
 }
 
-abstract class KFailureError403 implements KFailure {
-  const factory KFailureError403({required final String error}) =
-      _$KFailureError403;
+abstract class FailureError403 implements Failure {
+  const factory FailureError403({required final String error}) =
+      _$FailureError403;
 
   String get error;
   @JsonKey(ignore: true)
-  _$$KFailureError403CopyWith<_$KFailureError403> get copyWith =>
+  _$$FailureError403CopyWith<_$FailureError403> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$$KFailureError409CopyWith<$Res> {
-  factory _$$KFailureError409CopyWith(
-          _$KFailureError409 value, $Res Function(_$KFailureError409) then) =
-      __$$KFailureError409CopyWithImpl<$Res>;
+abstract class _$$FailureError409CopyWith<$Res> {
+  factory _$$FailureError409CopyWith(
+          _$FailureError409 value, $Res Function(_$FailureError409) then) =
+      __$$FailureError409CopyWithImpl<$Res>;
   @useResult
   $Res call({String error});
 }
 
 /// @nodoc
-class __$$KFailureError409CopyWithImpl<$Res>
-    extends _$KFailureCopyWithImpl<$Res, _$KFailureError409>
-    implements _$$KFailureError409CopyWith<$Res> {
-  __$$KFailureError409CopyWithImpl(
-      _$KFailureError409 _value, $Res Function(_$KFailureError409) _then)
+class __$$FailureError409CopyWithImpl<$Res>
+    extends _$FailureCopyWithImpl<$Res, _$FailureError409>
+    implements _$$FailureError409CopyWith<$Res> {
+  __$$FailureError409CopyWithImpl(
+      _$FailureError409 _value, $Res Function(_$FailureError409) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -2688,7 +2685,7 @@ class __$$KFailureError409CopyWithImpl<$Res>
   $Res call({
     Object? error = null,
   }) {
-    return _then(_$KFailureError409(
+    return _then(_$FailureError409(
       error: null == error
           ? _value.error
           : error // ignore: cast_nullable_to_non_nullable
@@ -2699,22 +2696,22 @@ class __$$KFailureError409CopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$KFailureError409 implements KFailureError409 {
-  const _$KFailureError409({required this.error});
+class _$FailureError409 implements FailureError409 {
+  const _$FailureError409({required this.error});
 
   @override
   final String error;
 
   @override
   String toString() {
-    return 'KFailure.error409(error: $error)';
+    return 'Failure.error409(error: $error)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$KFailureError409 &&
+            other is _$FailureError409 &&
             (identical(other.error, error) || other.error == error));
   }
 
@@ -2724,8 +2721,8 @@ class _$KFailureError409 implements KFailureError409 {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$KFailureError409CopyWith<_$KFailureError409> get copyWith =>
-      __$$KFailureError409CopyWithImpl<_$KFailureError409>(this, _$identity);
+  _$$FailureError409CopyWith<_$FailureError409> get copyWith =>
+      __$$FailureError409CopyWithImpl<_$FailureError409>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -2797,22 +2794,22 @@ class _$KFailureError409 implements KFailureError409 {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(KFailureServer value) server,
-    required TResult Function(KFailureOffline value) offline,
-    required TResult Function(KFailureUserNotFound value) userNotFound,
-    required TResult Function(KFailureLocationDenaid value) locationDenaid,
-    required TResult Function(KFailureLocationDiabled value) locationDiabled,
-    required TResult Function(KFailureLocationDenaidPermenetl value)
+    required TResult Function(FailureServer value) server,
+    required TResult Function(FailureOffline value) offline,
+    required TResult Function(FailureUserNotFound value) userNotFound,
+    required TResult Function(FailureLocationDenaid value) locationDenaid,
+    required TResult Function(FailureLocationDiabled value) locationDiabled,
+    required TResult Function(FailureLocationDenaidPermenetl value)
         locationDenaidPermenetl,
-    required TResult Function(KFailureUserLogedOut value) userLogetOut,
-    required TResult Function(KFailureSomeThingWrongPleaseTryagain value)
+    required TResult Function(FailureUserLogedOut value) userLogetOut,
+    required TResult Function(FailureSomeThingWrongPleaseTryagain value)
         someThingWrongPleaseTryagain,
-    required TResult Function(KFailureUnknownNetIssue value) unknownNetIssue,
-    required TResult Function(KFailureDecodingResponse value) error,
-    required TResult Function(KFailureError422 value) error422,
-    required TResult Function(KFailureError401 value) error401,
-    required TResult Function(KFailureError403 value) error403,
-    required TResult Function(KFailureError409 value) error409,
+    required TResult Function(FailureUnknownNetIssue value) unknownNetIssue,
+    required TResult Function(FailureDecodingResponse value) error,
+    required TResult Function(FailureError422 value) error422,
+    required TResult Function(FailureError401 value) error401,
+    required TResult Function(FailureError403 value) error403,
+    required TResult Function(FailureError409 value) error409,
   }) {
     return error409(this);
   }
@@ -2820,22 +2817,22 @@ class _$KFailureError409 implements KFailureError409 {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(KFailureServer value)? server,
-    TResult? Function(KFailureOffline value)? offline,
-    TResult? Function(KFailureUserNotFound value)? userNotFound,
-    TResult? Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult? Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult? Function(KFailureLocationDenaidPermenetl value)?
+    TResult? Function(FailureServer value)? server,
+    TResult? Function(FailureOffline value)? offline,
+    TResult? Function(FailureUserNotFound value)? userNotFound,
+    TResult? Function(FailureLocationDenaid value)? locationDenaid,
+    TResult? Function(FailureLocationDiabled value)? locationDiabled,
+    TResult? Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult? Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult? Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult? Function(FailureUserLogedOut value)? userLogetOut,
+    TResult? Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult? Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult? Function(KFailureDecodingResponse value)? error,
-    TResult? Function(KFailureError422 value)? error422,
-    TResult? Function(KFailureError401 value)? error401,
-    TResult? Function(KFailureError403 value)? error403,
-    TResult? Function(KFailureError409 value)? error409,
+    TResult? Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult? Function(FailureDecodingResponse value)? error,
+    TResult? Function(FailureError422 value)? error422,
+    TResult? Function(FailureError401 value)? error401,
+    TResult? Function(FailureError403 value)? error403,
+    TResult? Function(FailureError409 value)? error409,
   }) {
     return error409?.call(this);
   }
@@ -2843,22 +2840,22 @@ class _$KFailureError409 implements KFailureError409 {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(KFailureServer value)? server,
-    TResult Function(KFailureOffline value)? offline,
-    TResult Function(KFailureUserNotFound value)? userNotFound,
-    TResult Function(KFailureLocationDenaid value)? locationDenaid,
-    TResult Function(KFailureLocationDiabled value)? locationDiabled,
-    TResult Function(KFailureLocationDenaidPermenetl value)?
+    TResult Function(FailureServer value)? server,
+    TResult Function(FailureOffline value)? offline,
+    TResult Function(FailureUserNotFound value)? userNotFound,
+    TResult Function(FailureLocationDenaid value)? locationDenaid,
+    TResult Function(FailureLocationDiabled value)? locationDiabled,
+    TResult Function(FailureLocationDenaidPermenetl value)?
         locationDenaidPermenetl,
-    TResult Function(KFailureUserLogedOut value)? userLogetOut,
-    TResult Function(KFailureSomeThingWrongPleaseTryagain value)?
+    TResult Function(FailureUserLogedOut value)? userLogetOut,
+    TResult Function(FailureSomeThingWrongPleaseTryagain value)?
         someThingWrongPleaseTryagain,
-    TResult Function(KFailureUnknownNetIssue value)? unknownNetIssue,
-    TResult Function(KFailureDecodingResponse value)? error,
-    TResult Function(KFailureError422 value)? error422,
-    TResult Function(KFailureError401 value)? error401,
-    TResult Function(KFailureError403 value)? error403,
-    TResult Function(KFailureError409 value)? error409,
+    TResult Function(FailureUnknownNetIssue value)? unknownNetIssue,
+    TResult Function(FailureDecodingResponse value)? error,
+    TResult Function(FailureError422 value)? error422,
+    TResult Function(FailureError401 value)? error401,
+    TResult Function(FailureError403 value)? error403,
+    TResult Function(FailureError409 value)? error409,
     required TResult orElse(),
   }) {
     if (error409 != null) {
@@ -2868,12 +2865,12 @@ class _$KFailureError409 implements KFailureError409 {
   }
 }
 
-abstract class KFailureError409 implements KFailure {
-  const factory KFailureError409({required final String error}) =
-      _$KFailureError409;
+abstract class FailureError409 implements Failure {
+  const factory FailureError409({required final String error}) =
+      _$FailureError409;
 
   String get error;
   @JsonKey(ignore: true)
-  _$$KFailureError409CopyWith<_$KFailureError409> get copyWith =>
+  _$$FailureError409CopyWith<_$FailureError409> get copyWith =>
       throw _privateConstructorUsedError;
 }

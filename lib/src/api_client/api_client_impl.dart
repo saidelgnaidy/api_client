@@ -25,7 +25,7 @@ abstract class ConnectivityCheck {
 }
 
 abstract class ApiClientHelper {
-  static Future<Either<KFailure, dynamic>> responseToModel({required Future<Response<dynamic>> func, required Function(dynamic res) on200Error}) async {
+  static Future<Either<Failure, dynamic>> responseToModel({required Future<Response<dynamic>> func, required Function(dynamic res) on200Error}) async {
     if (await ConnectivityCheck.call()) {
       try {
         final response = await func;
@@ -35,42 +35,42 @@ abstract class ApiClientHelper {
           }
           return right(response.data);
         } else if (response.statusCode == 409) {
-          return left(KFailure.error409(error: response.data['message']));
+          return left(Failure.error409(error: response.data['message']));
         } else if (response.statusCode == 422) {
-          return left(KFailure.error422(error422model: response.data));
+          return left(Failure.error422(error422model: response.data));
         } else if (response.statusCode == 403) {
-          return left(KFailure.error401(error: response.data['message']));
+          return left(Failure.error401(error: response.data['message']));
         } else if (response.statusCode == 401) {
-          return left(KFailure.error401(error: response.data['message']));
+          return left(Failure.error401(error: response.data['message']));
         } else if (response.statusCode == 500) {
-          return left(const KFailure.server());
+          return left(const Failure.server());
         } else {
-          return left(const KFailure.someThingWrongPleaseTryagain());
+          return left(const Failure.someThingWrongPleaseTryagain());
         }
       } on DioError catch (e) {
         debugPrint('=================>> DioError :  ${e.message}');
         switch (e.type) {
           case DioErrorType.connectTimeout:
-            return left(const KFailure.error("Request Time out"));
+            return left(const Failure.error("Request Time out"));
           case DioErrorType.receiveTimeout:
-            return left(const KFailure.error("Receive Time out"));
+            return left(const Failure.error("Receive Time out"));
           case DioErrorType.other:
             if (e.error != null && e.error is SocketException) {
-              return left(KFailure.offline(option: e.requestOptions));
+              return left(Failure.offline(option: e.requestOptions));
             } else {
               debugPrint('=================> 1');
-              return left(const KFailure.someThingWrongPleaseTryagain());
+              return left(const Failure.someThingWrongPleaseTryagain());
             }
           default:
             debugPrint('=================> 2');
-            return left(const KFailure.someThingWrongPleaseTryagain());
+            return left(const Failure.someThingWrongPleaseTryagain());
         }
       } catch (e) {
         debugPrint('=================> 3');
-        return left(KFailure.error(e.toString()));
+        return left(Failure.error(e.toString()));
       }
     } else {
-      return left(const KFailure.offline());
+      return left(const Failure.offline());
     }
   }
 }
