@@ -1,8 +1,81 @@
-import 'package:dio/dio.dart';
-import 'api_client_abs.dart';
+import 'dart:io';
+import 'dart:async';
 import 'interceptor.dart';
+import 'package:dio/dio.dart';
+import '../error/failures.dart';
+import 'package:dartz/dartz.dart';
+import 'package:flutter/foundation.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 
-class DioClientImpl implements ApiClientAbs {
+abstract class ConnectivityCheck {
+  static final Connectivity _connectivity = Connectivity();
+
+  static Future<bool> call() async {
+    var connectivityResult = await (_connectivity.checkConnectivity());
+    if (connectivityResult == ConnectivityResult.none) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+  static Stream<ConnectivityResult> get connectionStream {
+    return _connectivity.onConnectivityChanged;
+  }
+}
+
+abstract class ApiClientHelper {
+  static Future<Either<KFailure, dynamic>> responseToModel({required Future<Response<dynamic>> func, required Function(dynamic res) on200Error}) async {
+    if (await ConnectivityCheck.call()) {
+      try {
+        final response = await func;
+        if (response.statusCode == 200) {
+          if (response.data['status'] == 'error') {
+            on200Error(response.data['message']);
+          }
+          return right(response.data);
+        } else if (response.statusCode == 409) {
+          return left(KFailure.error409(error: response.data['message']));
+        } else if (response.statusCode == 422) {
+          return left(KFailure.error422(error422model: response.data));
+        } else if (response.statusCode == 403) {
+          return left(KFailure.error401(error: response.data['message']));
+        } else if (response.statusCode == 401) {
+          return left(KFailure.error401(error: response.data['message']));
+        } else if (response.statusCode == 500) {
+          return left(const KFailure.server());
+        } else {
+          return left(const KFailure.someThingWrongPleaseTryagain());
+        }
+      } on DioError catch (e) {
+        debugPrint('=================>> DioError :  ${e.message}');
+        switch (e.type) {
+          case DioErrorType.connectTimeout:
+            return left(const KFailure.error("Request Time out"));
+          case DioErrorType.receiveTimeout:
+            return left(const KFailure.error("Receive Time out"));
+          case DioErrorType.other:
+            if (e.error != null && e.error is SocketException) {
+              return left(KFailure.offline(option: e.requestOptions));
+            } else {
+              debugPrint('=================> 1');
+              return left(const KFailure.someThingWrongPleaseTryagain());
+            }
+          default:
+            debugPrint('=================> 2');
+            return left(const KFailure.someThingWrongPleaseTryagain());
+        }
+      } catch (e) {
+        debugPrint('=================> 3');
+        return left(KFailure.error(e.toString()));
+      }
+    } else {
+      return left(const KFailure.offline());
+    }
+  }
+}
+
+class DioClientImpl {
   final List<Interceptor> otherInterceptors;
   final BaseOptions baseOptions;
   final String baseUrl;
@@ -28,24 +101,18 @@ class DioClientImpl implements ApiClientAbs {
       ))
       ..addAll(otherInterceptors)
       ..add(PrettyDioLogger());
-
   }
-
-
 
   Dio get _dio => Dio(baseOptions);
 
-  @override
   Future<Response> get(String path, {Map<String, dynamic>? params, Options? options}) {
     return _dio.get(path, queryParameters: params, options: options);
   }
 
-  @override
   Future<Response> post(String path, {Map<String, dynamic>? params, Options? options, data}) {
     return _dio.post(path, data: data, queryParameters: params, options: options);
   }
 
-  @override
   Future<Response> postWithFiles(String path, {Map<String, dynamic>? params, Options? options, data}) {
     return _dio.post(
       path,
@@ -61,22 +128,18 @@ class DioClientImpl implements ApiClientAbs {
     );
   }
 
-  @override
   Future<Response> patch(String path, {Map<String, dynamic>? params, Options? options, data}) {
     return _dio.patch(path, data: data, queryParameters: params, options: options);
   }
 
-  @override
   Future<Response> put(String path, {Map<String, dynamic>? params, Options? options, data}) {
     return _dio.put(path, data: data, queryParameters: params, options: options);
   }
 
-  @override
   Future<Response> delete(String path, {Map<String, dynamic>? params, Options? options, data}) {
     return _dio.delete(path, data: data, queryParameters: params, options: options);
   }
 
-  @override
   Future<Response> request(
     String path, {
     data,
