@@ -79,10 +79,10 @@ class DioClientImpl {
   final List<Interceptor> otherInterceptors;
   final BaseOptions baseOptions;
   final String baseUrl;
-  void Function(RequestOptions)? onRequestCallback;
-  void Function(Response<dynamic>)? onResponseCallback;
-  void Function(DioError)? onErrorCallback;
-  Future<Response<dynamic>> Function(RequestOptions) onRetry;
+  final void Function(RequestOptions)? onRequestCallback;
+  final void Function(Response)? onResponseCallback;
+  final void Function(DioError)? onErrorCallback;
+  final Future<Response<dynamic>> Function(RequestOptions options) onRetry;
   DioClientImpl(
     this.baseUrl, {
     this.otherInterceptors = const [],
